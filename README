@@ -1,0 +1,11 @@
+Drop findAtms.war into tomcat webapps dir
+
+/findAtms or /findAtms/login directs to the login page. User marshall, Password password
+
+App makes a service call to the remote atm website and displays a list of atm types and cities.
+Clicking on a type or city brings up a table of atms of that type (/findAtms/type/<type>) or from that city (/findAtms/city/<city>).
+The logout link at the top of pages returns to the login screen (/findAtms/login).
+
+App is written in java 1.8 and spring 4 using spring security using Eclipse Mars.
+Unit tests are written in mockito.
+
